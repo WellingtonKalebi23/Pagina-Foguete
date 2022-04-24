@@ -1,14 +1,18 @@
 .cabecalho {
+    font-size: 15.8px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: #fff;
-    height: 65px;
-    margin:-10px -10px;
+    height: 67px;
+    margin: -10px -10px;
 }
 
+.cabecalho .logo {
+    margin-left: 15px;
+}
 .menu {
-    flex-grow: 10;
+    flex-grow: 1;
 }
 
 .menu ul {
@@ -20,11 +24,11 @@
 }
 
 .menu li {
-    margin: 0px -140px;
+    margin: 0px -180px;
 }
 
 .cabecalho .botao {
-    border-radius: 30px;
+    border-radius: 10px;
     padding: 10px 35px;
     margin-right: 25px;
     background: #8aed95;
@@ -36,7 +40,7 @@
     height: 80px;
     text-decoration: none;
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 body {
@@ -49,20 +53,51 @@ body {
     align-items: center;
     justify-content: space-between;
     position: absolute;
-    top: 610px;
+    top: 600px;
     width: 100%;
-    margin: -10px -10px;
+    margin: -10px -6px;
     background-color: white;
+    padding: 1px;
+    margin-left: -8px;
+    height: 280px;
 }
 
 .newsletter .h1 {
+    font-size: 28px;
+    letter-spacing: 0.5px;
+    font-weight: 550;
+    margin-top: 40px;
     margin-left: 25px;
 }
 
 .newsletter .h3 {
+    font-weight: medium;
+    font-size: 15px;
+    margin-top: 50px;
     margin-left: 25px;
 }
 
 .newsletter .p {
+    margin-top: 0px;
     margin-left: 25px;
 }
+
+.newsletter {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.newsletter .botao {
+    border-radius: 10px;
+    padding: 10px 35px;
+    background: #8aed95;
+    color: white;
+    text-decoration: none;
+}
+
+.newsletter #email {
+    border-color: #8aed95;
+    border-radius: 5px;
+    padding: 9px;
+    font-size: 15px;
+}
+
