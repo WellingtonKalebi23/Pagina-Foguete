@@ -1,0 +1,46 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.menu {
+    flex-grow: 10;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0px -140px;
+}
+
+.cabecalho .botao {
+    border-radius: 30px;
+    padding: 10px 35px;
+    margin-right: 20px;
+    background: #8aed95;
+    color: white;
+}
+
+.cabecalho a {
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    text-decoration: none;
+}
+
+.cabecalho {
+    background: #fff;
+    height: 80px;
+    margin:-10px -10px;
+}
+
+body {
+    background-image: url("/pagina/img/banner_foguete.png");
+}
