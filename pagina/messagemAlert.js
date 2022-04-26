@@ -1,5 +1,7 @@
-const btn = document.getElementById("alert");
+var btLogin = document.getElementById("alert");
 
-btn.addEventListener('click', function(){
-    alert("esse é o texto do alerta");
-});
+function dialogoAlert() {
+    alert("Partiu 3°Fase?")
+}
+
+btLogin.addEventListener("click", dialogoAlert)

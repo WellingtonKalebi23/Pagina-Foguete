@@ -94,6 +94,8 @@ body {
     background: #8aed95;
     color: white;
     text-decoration: none;
+    border: none;
+    font-size: 16px;
 }
 
 .newsletter #email {
