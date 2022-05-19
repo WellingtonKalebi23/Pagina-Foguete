@@ -113,4 +113,31 @@ body {
     display: flex;
     position: absolute;
     top: 900px;
+    width: 95%;
+    background: linear-gradient(#3c5f72, #223641);
+    padding: 30px;
+    margin-left: -10px;
+    padding-right: 41px;
 }
+
+.rodape #copy {
+    display: flex;
+    position: absolute;
+    top: 150px;
+}
+
+.rodape #linha {
+    display: flex;
+    position: absolute;
+    top: 140px;
+    text-align: center;
+    margin-left: 40px;
+    width: 1000px;
+    height: 0px;
+}
+
+.rodape, li, a {
+    text-decoration: none;
+    list-style: none;
+}
+
